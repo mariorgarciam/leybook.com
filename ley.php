@@ -1,6 +1,6 @@
 <?php
 sleep(2);
-ini_set('max_execution_time', 80);
+ini_set('max_execution_time', 300);
 for ($i=190; $i <= 195; $i++) {
     $no = $i.'/pdf';
     $url = 'https://www.leybook.com/doc/'.$no;
