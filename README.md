@@ -9,6 +9,7 @@ Hacer pruebas con http://www.temasnicas.net/rtn106.pdf
 
 Guardando el detalle de cada documento PDF EN MySQL
 
+```
 CREATE TABLE 'libros' (
   'id_libro' int(11) NOT NULL,
   'codigo' int(11) DEFAULT NULL,
@@ -19,3 +20,4 @@ CREATE TABLE 'libros' (
   'aprobado' varchar(255) COLLATE utf8_spanish_ci DEFAULT NULL,
   'publicado' varchar(255) COLLATE utf8_spanish_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+```
