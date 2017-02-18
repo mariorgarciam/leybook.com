@@ -31,11 +31,11 @@
 
 		    echo 'Se ha descargado Ley Book #'.$i.' '.utf8_encode($materia).' '.utf8_encode($rango).'<br>';		
 
-		   	$query = "INSERT INTO libros (codigo, titulo, materia, rango, numero, aprobado, publicado) VALUES ('.$i.', '$titulo', '$materia', '$rango', '$numero', '$aprobado', '$publicado')";
-			$resultado = mysql_query($query) or die('Consulta fallida: ' . mysql_error());
+		    $query = "INSERT INTO libros (codigo, titulo, materia, rango, numero, aprobado, publicado) VALUES ('.$i.', '$titulo', '$materia', '$rango', '$numero', '$aprobado', '$publicado')";
+		    $resultado = mysql_query($query) or die('Consulta fallida: ' . mysql_error());
 		}
 		else{
-			echo 'No Existe Ley Book #'.$i.'<br>';
+		    echo 'No Existe Ley Book #'.$i.'<br>';
 		}
 	}
 ?>
