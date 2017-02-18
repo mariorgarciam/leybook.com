@@ -10,7 +10,7 @@
 
 	sleep(2);
 	ini_set('max_execution_time', 2000);
-	for ($i=1701; $i <= 1800; $i++) {
+	for ($i=190; $i <= 18620; $i++) {
 	    $no = $i.'/pdf';
 	    $url = 'https://www.leybook.com/doc/'.$no;
 	    $url2 = file_get_contents('https://www.leybook.com/doc/'.$i);
